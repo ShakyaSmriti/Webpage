@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    padding: 5px
+  }
+  
+nav .navi li{
+    display:inline;
+    
+    
+}
+
+nav .navi{
+    list-style-type:none;
+}
+nav .navi li a{
+    display: inline-block;
+    color:black;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+  nav .navi input[type=text] {
+    float: right;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+  }
+  
+  
+ nav .navi button {
+    position: relative;
+    left: 44%;
+    padding: 10px;
+    border-radius: 3px;
+    width: 6%;
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  nav .navi button:hover {
+    transition: 0.4s;
+  }
+ 
+  body{
+    overflow-x: hidden;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 830px;
+  }
+  .home h1 span{
+    color: rgb(165, 10, 10);
+  }
+  .about h1{
+    text-align: center;
+    font-size: 50px;
+    font: bold;
+    color: rgb(165, 10, 10);
+  }
+  .about p{
+    text-align: center;
+    font-size: 30px;
+    
+  }
+  
+  .admission{
+    font-size: 20px;
+    color:black;
+    
+  }
+  /* for mobiles */
+@media screen and (min-width: 320px) and (max-width: 480px){
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .p1{
+      background-color: red;
+      color: white;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  
+  }
+  #p2 {
+      background-color:red;
+      color: hotpink;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  }
+  #p3{
+      background-color: red;
+      color: black;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  }
+  img{
+      max-width: 100%;
+  }
+}
+/* for tablets */
+@media screen and (min-width: 481px) and (max-width: 768px){
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .p1{
+      background-color: blue;
+      color: white;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  
+  }
+  #p2 {
+      background-color: blue;
+      color: white;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  }
+  #p3{
+      background-color: blue;
+      color: red;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  }
+  img{
+      max-width: 100%;
+  }
+}
+/* for laptop responsive */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .p1{
+      background-color: red;
+      color: white;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  
+  }
+  #p2 {
+      background-color: blue;
+      color: white;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  }
+  #p3{
+      background-color: black;
+      color: red;
+      font-size: 50px;
+      font-family:'Rubik 80s Fade' ;
+  }
+  img{
+      max-width: 100%;
+  }
+}
+.social-icon{
+  color:orangered;
+  text-decoration: none;
+  margin: 0px ;
+  font-size:x-large;
+
+  
+
+
+
+}
+.social-icon:hover{
+  color:black;
+}
+
+.social{
+  color: blueviolet;
+  text-decoration: none;
+  margin:0 px ;
+  font-size: x-large;
+
+}
+.social:hover{
+  color:blue;
+}
+
+.icon{
+  color: black;
+  font-size: x-large;
+}
+
+.icon:hover{
+  color: brown;
+}
+.media{
+  color: aquamarine;
+  font-size: x-large;
+
+}
+.media:hover{
+  color: pink;
+}
+.container{
+
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+  
